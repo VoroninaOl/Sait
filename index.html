@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/css.css">
+    <script defer src="../js/Fon.js"></script>
+<title>YourCar</title>
+    <style>#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #c5d3d5 url(http://hello-site.ru//main/images/preloads/tail-spin.svg) center center no-repeat;background-size:107px;}</style>
+<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
+<script>var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},500);};</script>
+        </head>
+    <body>
+       
+        
+        
+        <div id="menu_1">
+            <ul><nav v-bind:class="active" v-on:click.prevent>
+                <li><a href="file:///D:/дз/Сайт/html/Главная.html" class="fontu">YourCar</a></li>
+                <li class="a2"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Правила.html"><small>Правила</small></a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Автопарк1.html" ><small>Автопарк</small></a></li>
+                <li class ="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Тарифы.html"><small>Тарифы</small></a></li>
+                <li class="a1"></li>
+                <li><a href="#"><small>Помощь</small></a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Войти.html"><small>Войти</small></a></li>
+                <li class="a1"></li>
+                <li><a href="#"><img src="../ipg/меню.png" width="45" height="30" vspace="11px" alt="меню"></a>
+                </li></nav>
+            </ul>
+           
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+        
+        <script>
+            // Создаем новую сущность Vue.js
+            var demo = new Vue({
+                // DOM элемент, к которому прикреплена сущность (div id="main")
+                el: '#main',
+                data: {
+                    active: 'home'
+                },
+                methods: {
+                    makeActive: function(item){
+                        // представление обновляется.
+                        this.active = item;
+                    }
+                }
+            });
+        </script>
+        <div><img src="../ipg/ГлФон.png" width="1503" height="700" alt="глфон">
+            <div class="tekst1">Наше внимание – ваше</div>
+        <div class="tekst2">качество жизни.</div>
+        <div class="tekst3">Самые смелые мечты</div>
+        <div class="tekst4">станут твоей</div>
+        <div class="tekst5">реальностью.</div></div>
+        <div><img src="../ipg/Фон1.png" width="1503" height="700" alt="фон">
+            <div class="box-wrap">
+            <div class="tekst6">Преимущество каршеринга</div>
+            <div class="tekst7">Выбор модели транспортного средства на любой вкус</div>
+            <div class="tekst8">Возможность свободно передвигаться по городу</div>
+            <div class="tekst9"><img src="../ipg/МСверху.png" width="300" height="650" alt="меню"></div>
+            <div class="tekst10">Бесплатная парковка</div>
+            <div class="tekst11">Обслуживание автомобиля входит в стоимость</div>
+            </div></div>
+        <div class="posiv"><h1>Ты сможешь поехать сразу после регистрации</h1></div>
+        <div class="centered"><h1><a href="file:///D:/дз/Сайт/html/Регистрация.html">Зарегистрироваться</a></h1></div>
+        <div><img src="../ipg/Sonata.png" width="1500" height="300" vspace="70px" hspace="5px" alt="меню">
+        <img src="../ipg/Rav4.png" width="1500" height="300" hspace="5px" alt="меню">
+            <div class="centered1"><h1><a href="file:///D:/дз/Сайт/html/Автопарк2.html">Забронировать</a></h1></div>
+            <div class="centered2"><h1><a href="file:///D:/дз/Сайт/html/Автопарк2.html">Забронировать</a></h1></div>
+            <div class="centered3"><h1>Hyundai Sonata</h1></div>
+            <div class="centered4"><h1>Toyota RAV4</h1></div>
+        </div>
+        <div><img src="../ipg/Слайдер.png" width="1500" height="900" alt="меню"></div>
+        
+        <div><img src="../ipg/Рег.png" width="1503" height="700" alt="меню"></div>
+        <div><img src="../ipg/Карта.png" width="1503" height="700" alt="меню"></div>
+        <div><img src="../ipg/Дорога.png" width="1503" height="700" alt="меню"></div>
+        <div class="tekst13"><h1>Как стать частью нашей огромной семьи?</h1></div>
+        <div class="tekst12">1.Пройди быструю регистрацию онлайн</div>
+        <div class="tekst14">2.Найди ближайший автомобиль на карте</div>
+        <div class="tekst15">3.Управляйте автомобилем и наслаждайтесь жизнью</div>
+        <div class="container">
+        <div>
+            <input type="button" value="Light/Dark" id="toggle-theme" />
+            
+        
+    </div></div>
+        <div class="centered14"><h1><a href="file:///D:/дз/Сайт/html/Style.html">Style Guide</a></h1></div>
+        <footer>
+        <p>© 2022 YourCar</p>
+    </footer>
+    </body>
+</html>
