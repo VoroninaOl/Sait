@@ -1,0 +1,785 @@
+:root {
+           
+        }
+
+        :root[theme='dark'] {
+            --red-hue: 360;
+            --blue-hue: 240;
+            --green-hue: 120;
+
+            --main-hue: var(--blue-hue);
+            --theme-darkness: 1;
+
+            --nav-bg-color: hsl(var(--main-hue), 50%, 90%);
+            --nav-text-color: hsl(var(--main-hue), 50%, 10%);
+            --container-bg-color: hsl(var(--main-hue), 50%, 95%);
+
+
+            --content-text-color: hsl(var(--main-hue), 50%, 50%);
+            --title-color: hsl(--main-hue, 50%, 20%);
+            --footer-bg-color: hsl(var(--main-hue), 93%, 88%);
+
+            --button-text-color: hsl(var(--main-hue), 50%, 20%);
+
+            filter: invert(1) brightness(var(--theme-darkness));
+        }
+         
+        * {
+            margin: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            flex: 1;
+            background: var(--container-bg-color);
+            padding: 1rem;
+        }
+
+
+#menu_1{
+    background-color: #A2A9B4;
+}
+    #menu_1 ul{
+     list-style: none;
+       margin: 0;
+      padding: 5px;
+        font: 20px Raleway;
+ }
+   #menu_1 ul:after{
+       content: "";
+      display: block;
+     clear: both;
+        height: 0;
+  }
+       #menu_1 li{
+         float: left;
+        }
+           #menu_1 li a{
+               display: block;
+             height: 50px;
+               line-height: 50px;
+              padding: 0 20px;
+                background-color: #A2A9B4;
+             color: #fff;
+                text-transform: uppercase;
+              text-decoration: none;
+              cursor: pointer;
+            }
+           #menu_1 li a:hover{
+             background-color: #626e82;
+         }
+.a1{
+    display: block;
+             height: 30px;
+               line-height: 30px;
+              padding: 0 10px;
+}
+.a2{
+    display: block;
+             height: 30px;
+               line-height: 30px;
+              padding: 0 230px;
+}
+.fontu{
+    font: 25px Playfair Display;
+}
+
+
+a{
+    float: left;
+     padding: 0 100px;
+    background-color: #A2A9B4;
+    display: block;
+    
+             height: 50px;
+               line-height: 50px;
+             color: #fff;
+              text-decoration: none;
+              cursor: pointer;
+}
+a:hover{
+             background-color: #626e82;
+         }
+
+
+@font-face {
+	font-family: 'Raleway'; 
+	src: local('Raleway'),
+		url(../font/Raleway.ttf); 
+}
+@font-face {
+	font-family: 'Aguafina Script'; 
+	src: local('Font Name'),
+		url(../font/AguafinaScript-Regular.ttf); 
+}
+
+
+h1{
+    font:normal 64px Playfair Display;
+  left: 50%;
+  margin: 0;
+  text-transform: uppercase;
+  top: 120%;
+  width: 100%;
+    margin-left:200px;
+}
+h11{
+    font:normal 50px Playfair Display;
+  text-transform: uppercase;
+    margin-top:40px;
+    position: absolute;
+}
+h12{
+    font:normal 48px Playfair Display;
+  text-transform: uppercase;
+      margin-top:40px;
+    position: absolute;
+}
+h13{
+    font:normal 40px Playfair Display;
+  text-transform: uppercase;
+      margin-top:40px;
+    position: absolute;
+}
+h14{
+    font:normal 32px Playfair Display;
+  text-transform: uppercase;
+      margin-top:40px;
+    position: absolute;
+}
+
+h2{
+    font:normal 40px Raleway;
+  text-transform: uppercase;
+     margin-left:50px;
+    margin-top:50px;
+}
+h21{
+    font:normal 40px Raleway;
+  text-transform: uppercase;
+       margin-top:40px;
+    position: absolute;
+}
+h22{
+    font:normal 30px Raleway;
+  text-transform: uppercase;
+      margin-top:50px;
+    position: absolute;
+}
+h23{
+    font:normal 24px Raleway;
+  text-transform: uppercase;
+     margin-top:50px;
+    position: absolute;
+}
+h24{
+    font:normal 20px Raleway;
+  text-transform: uppercase;
+      margin-top:55px;
+    position: absolute;
+}
+h25{
+    font:normal 16px Raleway;
+  text-transform: uppercase;
+       margin-top:55px;
+    position: absolute;
+}
+h3{
+    font:normal 16px Raleway;
+  left: 50%;
+ margin-left:50px;
+  text-transform: uppercase;
+}
+
+h4{
+    font:normal 36px Raleway;
+  text-transform: uppercase;
+     margin-left:50px;
+    margin-top:50px;
+}
+h5{
+    font:normal 30px Raleway;
+  text-transform: uppercase;
+     margin-left:50px;
+    margin-top:50px;
+}
+h6{
+    font:normal 48px Aclonica;
+  text-transform: uppercase;
+    margin-top:39px;
+}
+p{
+    float: left;
+    margin-left:10px;
+   
+}
+.otctyp{
+     position: absolute;
+padding: 100px;
+    top: 55%;
+right: 0px;
+width: 900px;
+}
+.otctyp1{
+     position: absolute;
+padding: 0px;
+    top: 75%;
+right: 127px;
+width: 900px;
+}
+.otctyp2{
+     position: absolute;
+padding: 0px;
+    top: 0%;
+right: 0px;
+width: 790px;
+}
+.otctyp3{
+     position: absolute;
+padding: 0px;
+    top: 0%;
+right: 0px;
+width: 680px;
+}
+.otctyp4{
+     position: absolute;
+padding: 0px;
+    top: 0%;
+right: 0px;
+width: 570px;
+}
+.otctyp5{
+     position: absolute;
+padding: 0px;
+    top: 0%;
+right: 0px;
+width: 460px;
+}
+.otctyp6{
+     position: absolute;
+padding: 0px;
+    top: 0%;
+right: 0px;
+width: 350px;
+}
+.otctyp7{
+     position: absolute;
+padding: 0px;
+    top: 0%;
+right: 0px;
+width: 235px;
+}
+.otctyp8{
+     position: absolute;
+padding: 0px;
+    top: 0%;
+right: 0px;
+width: 130px;
+}
+.pol{
+    position: absolute;
+top: 25%;
+right: 260px;
+color: black;
+width: 500px;
+padding: 10px;
+     text-transform: uppercase;
+}
+.pol11{
+    position: absolute;
+top: 240%;
+right: 150px;
+width: 950px;
+}
+.pol12{
+    position: absolute;
+top: 290%;
+right: 600px;
+width: 500px;
+}
+.pol21{
+    position: absolute;
+top: 430%;
+right: 600px;
+width: 400px;
+}
+.pol22{
+    position: absolute;
+top: 475%;
+right: 600px;
+width: 500px;
+}
+.pol23{
+    position: absolute;
+top: 515%;
+right: 600px;
+width: 500px;
+}
+.pol24{
+    position: absolute;
+top: 550%;
+right: 500px;
+width: 500px;
+}
+ul {
+     line-height: 2;
+}
+
+.pol1{
+    margin-top:200px;
+}
+.pol13{
+    margin-top:700px;
+}
+.pol2{
+    margin-top:300px;
+}
+.pol5{
+    margin-top:140px;
+}
+.d1 {
+width: 100px; 
+height: 100px;
+background: #FFFFFF;
+border-radius: 50%;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.d2 {
+width: 100px; 
+height: 100px;
+background: #A2A9B4;
+border-radius: 50%;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.d3 {
+width: 100px; 
+height: 100px;
+background: #4C5159;
+border-radius: 50%;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.d4 {
+width: 100px; 
+height: 100px;
+background: #FFC16E;
+border-radius: 50%;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.d5 {
+width: 100px; 
+height: 100px;
+background: #F9E0C4;
+border-radius: 50%;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.d6 {
+width: 100px; 
+height: 100px;
+background: #C59E7D;
+border-radius: 50%;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.d7 {
+width: 100px; 
+height: 100px;
+background: #937162;
+border-radius: 50%;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.d8 {
+width: 100px; 
+height: 100px;
+background: #000000;
+border-radius: 50%;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.svg-icon {
+    /* Разместить иконку выше базового текста. */
+    position: relative;
+    top: 0.125em;
+
+    /* Не дать иконке сжаться внутри flex-контейнера. */
+    flex-shrink: 0;
+
+    /*
+     * Масштабировать иконку до размера шрифта родительского 
+     * элемента.
+    */
+    height: 1em;
+    width: 1em;
+
+    /* Установить для иконки любой цвет, который задан родителю. */
+    fill: currentColor;
+
+    /*
+     * Если иконка используется в ссылке, для которой задан цветовой
+     * переход, мы можем также задать для fill нужное значение
+     * transition.
+    */
+   transition: fill 0.3s;
+}
+svg {
+    /* Place the icon on the text baseline. */
+    position: relative;
+    top: .125em;
+
+    /* Prevent the icon from shrinking inside a flex container. */
+    flex-shrink: 0;
+
+
+
+    /* Let the icon take whatever color the parent has. */
+    fill: currentColor;
+
+    /*
+     * If the icon is used on a link, which has a color transition,
+     * we can also transition the fill.
+    */
+   transition: fill .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.angry-grid {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 0px;
+   height: 100%;
+   
+}
+  
+#item-0 {
+ 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+   
+}
+#item-1 {
+
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 5;
+   grid-column-end: 6;
+   
+}
+#item-2 {
+
+   grid-row-start: 1;
+   grid-column-start: 6;
+
+   grid-row-end: 2;
+   grid-column-end: 7;
+   
+}
+#item-3 {
+
+   grid-row-start: 1;
+   grid-column-start: 7;
+
+   grid-row-end: 2;
+   grid-column-end: 8;
+   
+}
+#item-4 {
+
+   grid-row-start: 1;
+   grid-column-start: 8;
+
+   grid-row-end: 2;
+   grid-column-end: 11;
+   
+}
+#item-5 {
+ 
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 11;
+   grid-column-end: 3;
+   
+}
+#item-6 {
+ 
+   grid-row-start: 2;
+   grid-column-start: 6;
+
+   grid-row-end: 3;
+   grid-column-end: 7;
+   
+}
+#item-7 {
+
+   grid-row-start: 2;
+   grid-column-start: 7;
+
+   grid-row-end: 3;
+   grid-column-end: 8;
+   
+}
+#item-8 {
+
+   grid-row-start: 3;
+   grid-column-start: 6;
+
+   grid-row-end: 4;
+   grid-column-end: 7;
+   
+}
+#item-9 {
+
+   grid-row-start: 3;
+   grid-column-start: 7;
+
+   grid-row-end: 4;
+   grid-column-end: 8;
+   
+}
+#item-10 {
+
+   grid-row-start: 4;
+   grid-column-start: 6;
+
+   grid-row-end: 5;
+   grid-column-end: 7;
+   
+}
+#item-11 {
+
+   grid-row-start: 4;
+   grid-column-start: 7;
+
+   grid-row-end: 5;
+   grid-column-end: 8;
+   
+}
+#item-12 {
+
+   grid-row-start: 2;
+   grid-column-start: 8;
+
+   grid-row-end: 3;
+   grid-column-end: 11;
+   
+}
+#item-13 {
+
+   grid-row-start: 3;
+   grid-column-start: 8;
+
+   grid-row-end: 4;
+   grid-column-end: 11;
+   
+}
+#item-14 {
+
+   grid-row-start: 4;
+   grid-column-start: 8;
+
+   grid-row-end: 5;
+   grid-column-end: 11;
+   
+}
+#item-15 {
+
+   grid-row-start: 5;
+   grid-column-start: 3;
+
+   grid-row-end: 10;
+   grid-column-end: 6;
+   
+}
+#item-16 {
+
+   grid-row-start: 5;
+   grid-column-start: 6;
+
+   grid-row-end: 6;
+   grid-column-end: 7;
+   
+}
+#item-17 {
+
+   grid-row-start: 5;
+   grid-column-start: 7;
+
+   grid-row-end: 6;
+   grid-column-end: 8;
+   
+}
+#item-18 {
+
+   grid-row-start: 5;
+   grid-column-start: 8;
+
+   grid-row-end: 6;
+   grid-column-end: 11;
+   
+}
+#item-19 {
+
+   grid-row-start: 6;
+   grid-column-start: 6;
+
+   grid-row-end: 7;
+   grid-column-end: 7;
+   
+}
+#item-20 {
+ 
+   grid-row-start: 7;
+   grid-column-start: 6;
+
+   grid-row-end: 8;
+   grid-column-end: 7;
+   
+}
+#item-21 {
+
+   grid-row-start: 8;
+   grid-column-start: 6;
+
+   grid-row-end: 9;
+   grid-column-end: 7;
+   
+}
+#item-22 {
+
+   grid-row-start: 9;
+   grid-column-start: 6;
+
+   grid-row-end: 10;
+   grid-column-end: 7;
+   
+}
+#item-23 {
+
+   grid-row-start: 6;
+   grid-column-start: 7;
+
+   grid-row-end: 7;
+   grid-column-end: 8;
+   
+}
+#item-24 {
+
+   grid-row-start: 7;
+   grid-column-start: 7;
+
+   grid-row-end: 8;
+   grid-column-end: 8;
+   
+}
+#item-25 {
+
+   grid-row-start: 8;
+   grid-column-start: 7;
+
+   grid-row-end: 9;
+   grid-column-end: 8;
+   
+}
+#item-26 {
+
+   grid-row-start: 9;
+   grid-column-start: 7;
+
+   grid-row-end: 10;
+   grid-column-end: 8;
+   
+}
+#item-27 {
+
+   grid-row-start: 6;
+   grid-column-start: 8;
+
+   grid-row-end: 7;
+   grid-column-end: 11;
+   
+}
+#item-28 {
+
+   grid-row-start: 7;
+   grid-column-start: 8;
+
+   grid-row-end: 8;
+   grid-column-end: 11;
+   
+}
+#item-29 {
+
+   grid-row-start: 8;
+   grid-column-start: 8;
+
+   grid-row-end: 9;
+   grid-column-end: 11;
+   
+}
+#item-30 {
+
+   grid-row-start: 9;
+   grid-column-start: 8;
+
+   grid-row-end: 10;
+   grid-column-end: 11;
+   
+}
+#item-31 {
+
+   grid-row-start: 10;
+   grid-column-start: 3;
+
+   grid-row-end: 11;
+   grid-column-end: 6;
+   
+}
+#item-32 {
+
+   grid-row-start: 10;
+   grid-column-start: 6;
+
+   grid-row-end: 11;
+   grid-column-end: 7;
+   
+}
+#item-33 {
+ 
+   grid-row-start: 10;
+   grid-column-start: 7;
+
+   grid-row-end: 11;
+   grid-column-end: 8;
+   
+}
+#item-34 {
+
+   grid-row-start: 10;
+   grid-column-start: 8;
+
+   grid-row-end: 11;
+   grid-column-end: 11;
+   
+}

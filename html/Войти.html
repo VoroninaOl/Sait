@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/css4.css">
+<title>YourCar</title>
+       </head>
+    <body>
+        
+        <div id="menu_1">
+            <ul><nav v-bind:class="active" v-on:click.prevent>
+                <li><a href="file:///D:/дз/Сайт/html/Главная.html"  class="fontu">YourCar</a></li>
+                <li class="a2"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Правила.html">Правила</a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Автопарк1.html" >Автопарк</a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Тарифы.html">Тарифы</a></li>
+                <li class="a1"></li>
+                <li><a href="#">Помощь</a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Войти.html">Войти</a></li>
+                <li class="a1"></li>
+                <li><a href="#"><img src="../ipg/меню.png" width="45" height="30" vspace="11px" alt="меню"></a></li></nav>
+            </ul>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+        
+        <script>
+            // Создаем новую сущность Vue.js
+            var demo = new Vue({
+                // DOM элемент, к которому прикреплена сущность (div id="main")
+                el: '#main',
+                data: {
+                    active: 'home'
+                },
+                methods: {
+                    makeActive: function(item){
+                        // представление обновляется.
+                        this.active = item;
+                    }
+                }
+            });
+        </script>
+        <form id="login">
+    <h1>Вход</h1>
+    <fieldset id="inputs">
+        <input id="username" type="text" placeholder="Логин" minlength = "3" autofocus required>   
+        <input id="password" type="password" placeholder="Пароль" required>
+    </fieldset>
+    <fieldset id="actions">
+        <input type="submit" id="submit" value="ВОЙТИ">
+        <a href="">Забыли пароль?</a><a href="file:///D:/дз/Сайт/html/Регистрация.html">Регистрация</a>
+    </fieldset>
+</form>
+    </body>
+</html>

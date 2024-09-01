@@ -1,0 +1,268 @@
+#menu_1{
+    background-color: #A2A9B4;
+}
+    #menu_1 ul{
+     list-style: none;
+       margin: 0;
+      padding: 5px;
+        font: 20px Raleway;
+ }
+   #menu_1 ul:after{
+       content: "";
+      display: block;
+     clear: both;
+        height: 0;
+  }
+       #menu_1 li{
+         float: left;
+        }
+           #menu_1 li a{
+               display: block;
+             height: 50px;
+               line-height: 50px;
+              padding: 0 20px;
+                background-color: #A2A9B4;
+             color: #fff;
+                text-transform: uppercase;
+              text-decoration: none;
+              cursor: pointer;
+            }
+           #menu_1 li a:hover{
+             background-color: #626e82;
+         }
+.a1{
+    display: block;
+             height: 30px;
+               line-height: 30px;
+              padding: 0 10px;
+}
+.a2{
+    display: block;
+             height: 30px;
+               line-height: 30px;
+              padding: 0 230px;
+}
+@font-face {
+	font-family: 'Aclonica'; 
+	src: local('Aclonica'),
+		url(../font/Aclonica-Regular.ttf); 
+}
+.fontu{
+    font: 25px Playfair Display;
+}
+@font-face {
+	font-family: 'Aguafina Script'; 
+	src: local('Font Name'),
+		url(../font/AguafinaScript-Regular.ttf); 
+}
+h2{
+    font:normal 700px Aguafina Script;
+    color: #f5f5f5;
+    position: sticky;
+  left:65%;
+  margin: 0;
+  text-transform: uppercase;
+  top: 0%;
+  width: 0%;
+}
+h3{
+    font:normal 700px Aguafina Script;
+    color: #f5f5f5;
+    position: sticky;
+  left: 60%;
+  margin: 0;
+  text-transform: uppercase;
+  top: 0%;
+  width: 0%;
+}
+.tekst1 {
+
+position: absolute;
+
+top: 20%;
+
+right: 5px;
+
+text-transform: uppercase;
+
+color: black;
+
+width: 640px;
+
+padding: 10px;
+
+font:normal 50px Playfair Display;
+
+}
+
+.tekst2 {
+
+position: absolute;
+
+top: 30%;
+
+right: 5px;
+
+text-transform: uppercase;
+
+color: black;
+
+width: 640px;
+
+padding: 10px;
+
+font:normal 30px Playfair Display;
+
+}
+.tekst3 {
+
+position: absolute;
+
+top: 45%;
+
+right: 5px;
+
+text-transform: uppercase;
+
+color: black;
+
+width: 640px;
+
+padding: 10px;
+
+font:normal 30px Playfair Display;
+
+}
+.tekst4 {
+
+position: absolute;
+
+top: 70%;
+
+right: 5px;
+
+text-transform: uppercase;
+
+color: black;
+
+width: 640px;
+
+padding: 10px;
+
+font:normal 30px Playfair Display;
+
+}
+.tekst5 {
+    display: block;
+
+position: absolute;
+
+top: 85%;
+
+right: 5px;
+
+text-transform: uppercase;
+
+color: black;
+
+width: 80px;
+
+padding: 6px;
+}
+.img5{
+    position: absolute;
+    top: 85%;
+
+right: 5px;
+
+width: 80px;
+    padding: 6px;
+    opacity: 0;
+}
+.img5:hover{
+    opacity: 1;
+}
+.tekst6 {
+    display: block;
+
+position: absolute;
+
+top: 85%;
+
+right: 70px;
+
+text-transform: uppercase;
+
+color: black;
+
+width: 76px;
+
+padding: 10px;
+}
+.img6{
+    position: absolute;
+    top: 85%;
+
+right: 70px;
+
+width: 76px;
+
+padding: 10px;
+    opacity: 0;
+}
+.img6:hover{
+    opacity: 1;
+}
+.tekst7 {
+
+position: absolute;
+
+top: 50%;
+
+right: 5px;
+
+text-transform: uppercase;
+
+color: black;
+
+width: 640px;
+
+padding: 10px;
+
+font:normal 30px Playfair Display;
+
+}
+.vid1{
+    position: absolute;
+
+top: 10%;
+
+left: 10px;
+
+text-transform: uppercase;
+
+color: black;
+
+width: 800px;
+
+padding: 10px;
+}
+.product-items .image a{
+    position: relative;
+    display: block;
+}
+product-items .image-add{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+product-items:hover .image-add{
+    opacity: 1;
+}
+@font-face {
+	font-family: 'Raleway'; 
+	src: local('Raleway'),
+		url(../font/Raleway.ttf); 
+}

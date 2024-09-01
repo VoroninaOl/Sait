@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/css3.css">
+<title>YourCar</title>
+       </head>
+    <body>
+        
+        <div id="menu_1">
+            <ul><nav v-bind:class="active" v-on:click.prevent>
+                <li><a href="file:///D:/дз/Сайт/html/Главная.html"  class="fontu">YourCar</a></li>
+                <li class="a2"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Правила.html"><small>Правила</small></a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Автопарк1.html" ><small>Автопарк</small></a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Тарифы.html"><small>Тарифы</small></a></li>
+                <li class="a1"></li>
+                <li><a href="#"><small>Помощь</small></a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Войти.html"><small>Войти</small></a></li>
+                <li class="a1"></li>
+                <li><a href="#"><img src="../ipg/меню.png" width="45" height="30" vspace="11px" alt="меню"></a></li></nav>
+            </ul>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+        
+        <script>
+            // Создаем новую сущность Vue.js
+            var demo = new Vue({
+                // DOM элемент, к которому прикреплена сущность (div id="main")
+                el: '#main',
+                data: {
+                    active: 'home'
+                },
+                methods: {
+                    makeActive: function(item){
+                        // представление обновляется.
+                        this.active = item;
+                    }
+                }
+            });
+        </script>
+        <div><div class="tekst1">Срок аренды</div>
+            <div class="tekst2">Даты поездки</div>
+            <div class="tekst3">Коробка передач</div>
+         <div class="tekst4">Коробка</div>
+            <div class="tekst5">Стоимость аренды</div>
+         <div class="tekst6">Цена</div>
+            <div class="tekst7">Тип автомобиля</div>
+         <div class="tekst8">Автомобиль</div>
+            <div class="tekst9">Показать</div>
+            <div><img src="../ipg/Аудир8.png" width="1500" height="300" vspace="150px" hspace="5px" alt="картинка">
+        <img src="../ipg/бмв.png" width="1500" height="300" class="centered5" alt="картинка">
+                <img src="../ipg/lexus.png" width="1500" height="300" class="centered6" alt="картинка">
+                <img src="../ipg/шевроле.png" width="1500" height="300" class="centered7" alt="картинка">
+            <div class="centered1"><h1><a href="">Забронировать</a></h1></div>
+             <div class="centered2"><h1><a href="">Забронировать</a></h1></div>
+                <div class="centered10"><h1><a href="file:///D:/дз/Сайт/html/Автопарк2.html">Забронировать</a></h1></div>
+             <div class="centered11"><h1><a href="">Забронировать</a></h1></div>
+            <div class="centered3"><h1>Audi r8</h1></div>
+            <div class="centered4"><h1>BMV i8</h1></div>
+                <div class="centered8"><h1>Lexus LFA</h1></div>
+                <div class="centered9"><h1>Chevrolet Camaro</h1></div>
+        </div>
+        </div>
+    </body>
+</html>

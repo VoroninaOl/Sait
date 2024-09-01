@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/css2.css">
+<title>YourCar</title>
+    
+        </head>
+    <body>
+        
+        <div id="menu_1">
+            <ul><nav v-bind:class="active" v-on:click.prevent>
+                <li><a href="file:///D:/дз/Сайт/html/Главная.html"  class="fontu">YourCar</a></li>
+                <li class="a2"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Правила.html"><small>Правила</small></a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Автопарк1.html" ><small>Автопарк</small></a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Тарифы.html"><small>Тарифы</small></a></li>
+                <li class="a1"></li>
+                <li><a href="#"><small>Помощь</small></a></li>
+                <li class="a1"></li>
+                <li><a href="file:///D:/дз/Сайт/html/Войти.html"><small>Войти</small></a></li>
+                <li class="a1"></li>
+                <li><a href="#"><img src="../ipg/меню.png" width="45" height="30" vspace="11px" alt="меню"></a></li></nav>
+            </ul>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+        
+        <script>
+            // Создаем новую сущность Vue.js
+            var demo = new Vue({
+                // DOM элемент, к которому прикреплена сущность (div id="main")
+                el: '#main',
+                data: {
+                    active: 'home'
+                },
+                methods: {
+                    makeActive: function(item){
+                        // представление обновляется.
+                        this.active = item;
+                    }
+                }
+            });
+        </script>
+        <video class="vid1"  width="700" height="650" loop muted autoplay>
+  <source src="../video/5.mp4" type="video/mp4" >
+    <param name="movie" value="video.swf">
+</video>
+        <div><h3>2</h3></div>
+        <div class="tekst1">осмотри</div>
+        <div class="tekst2">кузов и салон автомобиля на повреждения и отметь в приложении</div>
+        <div class="tekst3">7,5 бесплатных минут для осмотра авто</div>
+        <div class="tekst4">не забудь проверить наличие документов в бардачке</div>
+        <div ><a href="file:///D:/дз/Сайт/html/Правила3.html"><img src="../ipg/КВперед.png" width="82" height="70" class="tekst5" alt="кнопка">
+            <img src="../ipg/КВпередЧ.png"  width="82" height="70"  class="img5" alt="кнопка"></a></div>
+        <div><a href="file:///D:/дз/Сайт/html/Правила.html"><img src="../ipg/КНазад.png" width="70" height="65" class="tekst6" alt="кнопка">
+            <img src="../ipg/КНазадЧ.png"  width="70" height="65"  class="img6" alt="кнопка"></a></div>
+    </body>
+</html>

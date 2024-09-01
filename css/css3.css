@@ -1,0 +1,285 @@
+#menu_1{
+    background-color: #A2A9B4;
+}
+    #menu_1 ul{
+     list-style: none;
+       margin: 0;
+      padding: 5px;
+        font: 20px Raleway;
+ }
+   #menu_1 ul:after{
+       content: "";
+      display: block;
+     clear: both;
+        height: 0;
+  }
+       #menu_1 li{
+         float: left;
+        }
+           #menu_1 li a{
+               display: block;
+             height: 50px;
+               line-height: 50px;
+              padding: 0 20px;
+                background-color: #A2A9B4;
+             color: #fff;
+                text-transform: uppercase;
+              text-decoration: none;
+              cursor: pointer;
+            }
+           #menu_1 li a:hover{
+             background-color: #626e82;
+         }
+.a1{
+    display: block;
+             height: 30px;
+               line-height: 30px;
+              padding: 0 10px;
+}
+.a2{
+    display: block;
+             height: 30px;
+               line-height: 30px;
+              padding: 0 230px;
+}
+.fontu{
+    font: 25px Playfair Display;
+}
+.tekst1 {
+position: absolute;
+top: 10%;
+left: 10px;
+text-transform: uppercase;
+color: white;
+width: 270px;
+background: #A2A9B4;
+padding: 10px;
+font:normal 15px Raleway;
+}
+.tekst2 {
+position: absolute;
+top: 15%;
+left: 10px;
+text-transform: uppercase;
+color: white;
+width: 270px;
+background: #A2A9B4;
+padding: 10px;
+font:normal 20px Raleway;
+height: 40px;
+               line-height: 30px;
+             color: #fff;
+              text-decoration: none;
+              cursor: pointer;
+
+}
+.tekst2:hover{
+             background-color: #626e82;
+         
+}
+.tekst3 {
+position: absolute;
+top: 10%;
+left: 320px;
+text-transform: uppercase;
+color: white;
+width: 270px;
+background: #A2A9B4;
+padding: 10px;
+font:normal 15px Raleway;
+
+}
+.tekst4 {
+position: absolute;
+top: 15%;
+left: 320px;
+text-transform: uppercase;
+color: white;
+width: 270px;
+background: #A2A9B4;
+padding: 10px;
+font:normal 20px Raleway;
+height: 40px;
+               line-height: 30px;
+             color: #fff;
+              text-decoration: none;
+              cursor: pointer;
+
+}
+.tekst4:hover{
+             background-color: #626e82;
+         
+}
+
+.tekst5 {
+position: absolute;
+top: 10%;
+left: 630px;
+text-transform: uppercase;
+color: white;
+width: 270px;
+background: #A2A9B4;
+padding: 10px;
+font:normal 15px Raleway;
+
+}
+.tekst6 {
+position: absolute;
+top: 15%;
+left: 630px;
+text-transform: uppercase;
+color: white;
+width: 270px;
+background: #A2A9B4;
+padding: 10px;
+font:normal 20px Raleway;
+height: 40px;
+               line-height: 30px;
+             color: #fff;
+              text-decoration: none;
+              cursor: pointer;
+
+}
+.tekst6:hover{
+             background-color: #626e82;
+  
+}
+.tekst7 {
+position: absolute;
+top: 10%;
+left: 940px;
+text-transform: uppercase;
+color: white;
+width: 270px;
+background: #A2A9B4;
+padding: 10px;
+font:normal 15px Raleway;
+
+}
+.tekst8 {
+position: absolute;
+top: 15%;
+left: 940px;
+text-transform: uppercase;
+color: white;
+width: 270px;
+background: #A2A9B4;
+padding: 10px;
+font:normal 20px Raleway;
+height: 40px;
+               line-height: 30px;
+             color: #fff;
+              text-decoration: none;
+              cursor: pointer;
+
+}
+.tekst8:hover{
+             background-color: #626e82;
+  
+}
+.tekst9 {
+position: absolute;
+top: 10%;
+left: 1250px;
+text-transform: uppercase;
+color: white;
+width: 204px;
+background: #A2A9B4;
+padding: 28px;
+font:normal 20px Raleway;
+height: 40px;
+               line-height: 40px;
+             color: #fff;
+              text-decoration: none;
+              cursor: pointer;
+
+}
+.tekst9:hover{
+             background-color: #626e82;
+  
+}
+h1{
+    font:normal 30px Playfair Display;
+    height: 130px;
+  left: 50%;
+  margin: 0;
+  text-transform: uppercase;
+  top: 120%;
+  width: 100%;
+    text-align: center;
+}
+a{
+    float: left;
+     padding: 0 100px;
+    background-color: #A2A9B4;
+    display: block;
+    
+             height: 50px;
+               line-height: 50px;
+             color: #fff;
+              text-decoration: none;
+              cursor: pointer;
+}
+a:hover{
+             background-color: #626e82;
+         }
+.centered1 {
+    position: absolute;
+    top: 55%;
+    left: 33%;
+}
+.centered2 {
+    position: absolute;
+    top: 97%;
+    left: 33%;
+}
+.centered3 {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+}
+.centered4 {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+.centered5 {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+}
+.centered6 {
+    position: absolute;
+    top: 112%;
+    left: 1%;
+}
+.centered7 {
+    position: absolute;
+    top: 155%;
+    left: 1%;
+}
+.centered8 {
+    position: absolute;
+    top: 118%;
+    left: 5%;
+}
+.centered9 {
+    position: absolute;
+    top: 160%;
+    left: 5%;
+}
+.centered10 {
+    position: absolute;
+    top: 140%;
+    left: 33%;
+}
+.centered11 {
+    position: absolute;
+    top: 182%;
+    left: 33%;
+}
+@font-face {
+	font-family: 'Raleway'; 
+	src: local('Raleway'),
+		url(../font/Raleway.ttf); 
+}
