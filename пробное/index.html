@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Cookie Bar</title>
+  <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" type="text/css" href="style11.css">
+    <link rel="stylesheet" href="../css/css4.css">
+</head>
+<body>
+<div class="cookie-bar">
+	<div class="container">
+		<div class="cookie-bar-inner">
+			<p>Используя данный сайт, вы даете согласие на
+использование файлов cookie</p>
+			<a href="javascript:void(0);" class="border-btn" id="cookie-button">Принять</a>
+		</div>
+	</div>
+</div>
+
+<div class="contact-form-widget">
+        <form id="login">
+<h1>E-mail:</h1>
+<fieldset id="inputs">
+<input id="username" type="text" placeholder="Логин" minlength = "3" autofocus required>
+
+<input class="contact-form-email" type="email" name="email" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" onBlur="this.value=this.value.toUpperCase()">
+
+</fieldset>
+<fieldset id="actions">
+<input class="contact-form-button contact-form-button-submit fa-user" id="elem" type="submit" value="Подписаться"/>
+</fieldset>
+            </form></div>
+        
+    <script>
+    let email = document.querySelector('.contact-form-email');
+    let form = document.querySelector('.contact-form-button');
+    const body = document.querySelector('body');
+    const toggle = document.getElementById('toggle');
+    toggle.onclick = function(){
+      toggle.classList.toggle('active');
+      body.classList.toggle('active');
+    }
+
+    form.onclick = function() {
+  alert('Адрес ' + email.value + ' успешно добавлен в список рассылки.')}
+        </script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
